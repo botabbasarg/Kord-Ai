@@ -6,7 +6,7 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || 'kord_ai-uuu5hnUexpX9sRgV',
     OWNER_NUMBER: process.env.OWNER_NUMBER || "2349044907949",
     WORKTYPE: process.env.WORKTYPE || "private",
-    PREFIX: process.env.PREFIX || "[]",
+    PREFIX: process.env.PREFIX || "[.]",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
     MONGODB_URI: process.env.MONGODB_URI || "",
     STATUS_VIEW: process.env.STATUS_VIEW || true,
@@ -40,14 +40,14 @@ module.exports = {
     LOG_MESSAGES: process.env.LOG_MESSAGES || "off",
     STARTUP_MSG: process.env.STARTUP_MSG || "off",
     MENU_IMAGE: process.env.MENU_IMAGE || "",
-    WELCOME_MESSAGE: process.env.WELCOME_MESSAGE ||  `╭━━━々 𝚆 𝙴 𝙻 𝙲 𝙾 𝙼 𝙴 々━━━╮
+    WELCOME_MESSAGE: process.env.WELCOME_MESSAGE ||  "╭━━━々 𝚆 𝙴 𝙻 𝙲 𝙾 𝙼 𝙴 々━━━╮
 ┃ ➺ *々 Welcome @user! to @gname*
 ┃ ➺ *々 Members: @count*
 ┃ ➺ We Hope You Have A Nice Time Here!
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
-    GOODBYE_MESSAGE: process.env.GOODBYE_MESSAGE || `╭━━━々 𝙶 𝙾 𝙾 𝙳 𝙱 𝚈 𝙴 々━━━╮
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    GOODBYE_MESSAGE: process.env.GOODBYE_MESSAGE || "╭━━━々 𝙶 𝙾 𝙾 𝙳 𝙱 𝚈 𝙴 々━━━╮
 ┃ ➺ *々 @user! left @gname!*
 ┃ ➺ *々 Members: @count*
 ┃ ➺ We Hope He/She Had A Nice Time Here!
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━`
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 }
