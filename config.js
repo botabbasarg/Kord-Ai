@@ -6,7 +6,7 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || 'kord_ai-uuu5hnUexpX9sRgV',
     OWNER_NUMBER: process.env.OWNER_NUMBER || "2349044907949",
     WORKTYPE: process.env.WORKTYPE || "private",
-    PREFIX: process.env.PREFIX || "[.]",
+    PREFIX: process.env.PREFIX || "[]",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
     MONGODB_URI: process.env.MONGODB_URI || "",
     STATUS_VIEW: process.env.STATUS_VIEW || true,
@@ -32,13 +32,13 @@ module.exports = {
     SUDO: process.env.SUDO || "2348104029966", // example: 23412345667,2341234567
     MODS: process.env.MODS || "",
     REJECT_CALL: process.env.REJECT_CALL || "on",
-    WARNCOUNT: process.env.WARNCOUNT || "4",
+    WARNCOUNT: process.env.WARNCOUNT || "2",
     LANG_CODE: process.env.LANG_CODE || "en",
     VV_CMD: process.env.VV_CMD || "👀",
     RES_TYPE: process.env.RES_TYPE || "text",
     CMD_REACT: process.env.CMD_REACT || "on",
     LOG_MESSAGES: process.env.LOG_MESSAGES || "off",
-    STARTUP_MSG: process.env.STARTUP_MSG || "on",
+    STARTUP_MSG: process.env.STARTUP_MSG || "off",
     MENU_IMAGE: process.env.MENU_IMAGE || "",
     WELCOME_MESSAGE: process.env.WELCOME_MESSAGE ||  `╭━━━々 𝚆 𝙴 𝙻 𝙲 𝙾 𝙼 𝙴 々━━━╮
 ┃ ➺ *々 Welcome @user! to @gname*
